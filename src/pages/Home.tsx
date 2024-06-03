@@ -14,7 +14,7 @@ const Home: FC = () => {
         Word App
       </Text>
       <Flex flexDir="column" mt={8} gap={4} px={4}>
-        {wordsData.map((v) => (
+      {sampleData.map((v: IWords) => (
           <Button
             key={v.day}
             variant="outline"
